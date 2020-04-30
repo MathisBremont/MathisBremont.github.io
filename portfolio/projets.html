@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<html lang="fr">
+
+<head>
+
+        <title>Mathis Brémont</title>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <!-- Les CSS sont rangées ds un dossier "css" -->
+        <link rel="stylesheet" type="text/css" href="../css/stylesheet.css" />
+        <script type="text/javascript" src="../javascript/javascript.js"></script>
+  
+</head>
+
+<body>
+    <div id="page">
+
+      <header>
+              
+          <div class="menu">
+            <a href="présentation.html">Présentation</a> |
+            <a href="formation.html">Formation</a> |
+            <a class="selected" href="#">Projets</a> |
+            <a href="passions.html">Passions</a> |
+            <a href="CV.pdf" onclick="window.open(this.href); return false;">CV</a>
+          </div>
+              
+
+              
+      </header>
+
+        <main>
+
+          <div class="projets">
+
+              <div class=projetCarsat>
+                <img class="imageCarsat" src="../images/projets/carsat.jpg">
+                <p class="textCarsat">Logiciel de gestion des déplacements des agents de la Carsat. Je ne suis pas autorisé à montrer le code de ce projet.</p>
+              </div>
+
+              <div class="projetWroom">
+                <a href="https://github.com/MathisBremont/NodeJSTP" onMouseOver="changerImage(1);" onMouseOut="remettreImage(1);" onclick="window.open(this.href); return false;"><img id="image1" class="imageWroom" src="../images/projets/wroom.PNG" alt="wroom"></a>
+                <p class="textWroom">Site web "Encyclopédie de la F1", répertoriant des pilotes/courses/écuries/tournois/etc... Produit en nodeJs/html/css.</p>
+              </div>
+
+              <div class="projetQuizzAct">
+                <a href="https://github.com/MathisBremont/QuizzAct" onMouseOver="changerImage(2);" onMouseOut="remettreImage(2);" onclick="window.open(this.href); return false;"><img id="image2" class="imageQuizzAct" src="../images/projets/quizzact.jpg" alt="quizzact"></a>
+                <p class="textQuizzAct">Quizz mobile de culture générale, base de données interne, compte des scores, petit fond sonore.</p>
+              </div>
+            
+          </div>
+
+        </main>
+       
+  </div>
+        <footer>
+
+
+
+
+        <div class="footerContainer">
+          <div class="reseaux">
+
+            <p><span class="underline">Mes réseaux</span> : </p>
+
+            <div class="linkedinContainer">
+              <a href="https://www.linkedin.com/in/mathis-br%C3%A9mont-b857771a1/">LINKEDIN <img class="linkedinImage" src="../images/reseaux/linkedin.webp" alt="linkedin"></a>
+            </div>
+
+            <div class="facebookContainer">
+              <a href="https://www.facebook.com/profile.php?id=100008775426992">FACEBOOK <img class="facebookImage" src="../images/reseaux/facebook.webp" alt="portrait"></a>
+
+            </div>
+
+          </div>
+
+
+
+
+          <div class="contacts">
+
+            <p><span class="underline">Contactez moi</span> :</p>
+
+            <div class="mail">
+              Mail : <a href="mailto:mathis.bremont@etu.unilim.fr">mathis.bremont@etu.unilim.fr</a>
+            </div>
+
+            <div class="telephone">
+              Téléphone : <b>07 80 40 86 18</b>
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </footer>
+
+    
+</body>
+</html>

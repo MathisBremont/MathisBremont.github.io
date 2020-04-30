@@ -1,0 +1,443 @@
+
+header{
+	width : 1200px;
+	display : block;
+	margin : auto;
+}
+
+header img{
+	margin:  120px 0px 20px 0px;
+	width : 200px; height : 200px;
+  	border: none;
+  	-moz-border-radius : 100px;
+  	-webkit-border-radius : 100px;
+  	border-radius : 100px;
+  	
+  	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+	text-align: center;
+	font-family: Apple Chancery, cursive;
+	font-size: 40px;
+}
+
+h2{
+	margin-top: 200px;
+	margin-bottom: 100px;
+}
+
+
+main{
+	width : 1000px;
+	display : block;
+	margin : auto;
+}
+main p{
+	font-family: "Lucida Console", Courier, monospace;
+	line-height: 40px;
+	text-align: justify;
+	color: #7B6D8C;
+	margin-top: 120px;
+	margin-bottom:120px;
+	text-indent: 60px; 
+
+}
+
+body{
+	position:relative;
+}
+
+
+.menu a	{
+	color:#0333A1;
+	text-decoration:none;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+
+
+
+.menu {
+	margin-top: 80px;
+	margin-bottom: 40px;
+	height:40px;
+	text-align: center;
+	color:#0333A1;
+	font-size:2em;
+}
+
+.menu .selected{
+	color: #C20000;
+}
+
+
+html,body{
+	margin:0;
+	display:table;
+	height: 100%;
+	width: 100%;
+}
+
+main p{
+	height: auto;
+}
+
+.footerContainer p{
+	color:#FFFFFF;
+	font-size: 24px;
+	font-family: "Lucida Console", Courier, monospace;
+	
+
+}
+
+.underline{
+	color:#FFFFFF;
+	font-size: 24px;
+	font-family: "Lucida Console", Courier, monospace;
+	text-decoration: underline;
+
+}
+
+
+.footerContainer{
+	display: flex;
+}
+ 
+
+footer{
+  	
+	display: table-row;
+	background: #7B80A6;
+	max-height: 80px;
+
+}
+
+
+footer img {
+	width: 40px;
+	height: 40px;
+	border: none;
+  	-moz-border-radius : 75px;
+  	-webkit-border-radius : 75px;
+  	border-radius : 75px;
+
+}
+
+.facebookContainer {
+	margin-bottom: 20px;
+
+}
+
+.facebookImage{
+	margin-left:20px;
+}
+
+.linkedinImage{
+	margin-left:28px;
+}
+
+.linkedinContainer{
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+
+
+.reseaux{
+	width: 600px;
+	margin-left: 400px;
+	float:left;
+
+}
+
+
+
+.reseaux a{
+	margin-right: 20px;
+}
+
+
+
+.mail{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.contacts{
+	min-width: 200px;
+}
+
+.contacts b{
+	color:#0333A1
+}
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*//////////////////////////////////////////////   FORMATIONS   ////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+.iut img{
+	
+	height: 160px;
+	width: 400px;
+	margin-left: 40px;
+}
+
+.iut p{
+	
+	width: 400px;
+	margin-right: 30px;
+	margin-top: 20px;
+}
+
+.textIut{
+	float:left;
+	margin:auto;
+
+}
+
+.camille{
+	margin-bottom: 200px;
+}
+
+.camille b{
+	color:#000000;
+}
+
+.camille img{
+	
+	height: 200px;
+	width: 400px;
+	margin-left: 40px;
+}
+
+.camille p{
+	
+	width: 400px;
+	margin-right: 100px;
+	margin-top: 20px;
+}
+
+.textCamille{
+	float:right;
+	margin:auto;
+
+}
+
+.inc{
+	margin-top: 180px;
+	text-align:center; 
+}
+
+
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////   PASSIONS   /////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+
+
+.jeux img{
+	
+	height: 240px;
+	width: 425px;
+	margin-left: 40px;
+}
+
+.jeux p{
+	
+	width: 400px;
+	margin-right: 75px;
+	
+}
+
+.textJeux{
+	float:left;
+	margin:auto;
+
+}
+
+.musique{
+	margin-bottom: 200px;
+}
+
+.musique img{
+	
+	height: 250px;
+	width: 375px;
+	
+	
+}
+
+.musique p{
+	
+	width: 400px;
+	margin-right: 100px;
+	
+}
+
+.textMusique{
+	float:right;
+	margin:auto;
+	margin-bottom: 120px;
+}
+
+
+.slideJeux{
+	float:left;
+}
+
+.slidesJeux{
+	width: calc(1275px);
+	display: flex;
+	animation: glisse 10s infinite;
+}
+
+.sliderJeux{
+	width: 425px;
+	overflow: hidden;
+}
+
+@keyframes glisse{
+	0%{
+		transform: translateX(-40px);
+	}
+
+	10%{
+		transform: translateX(-40px);
+	}
+
+	33%{
+		transform: translateX(-500px);
+	}
+
+	43%{
+		transform: translateX(-500px);
+	}
+
+	66%{
+		transform: translateX(-960px);
+	} 
+
+	76%{
+		transform: translateX(-960px);
+	}
+
+	100%{
+		transform: translateX(-40px);
+	}
+}
+
+.platon{
+	font-size: 11px;
+	font-style: italic;
+}
+
+.slideMusique{
+	float:left;
+}
+
+.slidesMusique{
+	width: calc(1275px);
+	display: flex;
+	animation: glisse 10s infinite;
+}
+
+.sliderMusique{
+	width: 425px;
+	overflow: hidden;
+}
+
+
+
+/*//////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////   PROJETS   //////////////////////////////////////*/
+/*//////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+.projets{
+	width: 1000px;
+	
+}
+
+
+.projetCarsat{
+	margin-bottom: 150px;
+	margin-top: 150px;
+}
+
+
+.textCarsat{
+	float:right;
+	width: 400px;
+	margin-right: 100px;
+	margin-top: 150px;
+	
+
+}
+
+.imageCarsat{
+	margin-top: 120px;
+	margin-left: 30px;
+}
+
+
+.projetWroom{
+	margin-bottom: 150px;
+	margin-top: 150px;
+}
+
+.textWroom{
+	float:left;
+	width: 400px;
+	margin-right: 100px;
+	margin-top: 150px;
+	margin-bottom: 120px;
+}
+
+.imageWroom{
+	margin-top: 120px;
+
+	width: 400px;
+	height: 250px; 
+}
+
+
+
+.projetQuizzAct{
+	display:inline-block;
+}
+
+
+
+.projetQuizzAct{
+	margin-bottom: 250px;
+	margin-top: 80px;
+}
+
+.imageQuizzAct{
+	margin-top: 80px;
+	margin-left: 60px;
+	width: 300px;
+	height: 350px;
+	float:left; 
+}
+
+.textQuizzAct{
+	float:right;
+	width: 400px;
+	margin-left: 145px;	
+}
+
+
+
+
+
+
+
+
+
+
